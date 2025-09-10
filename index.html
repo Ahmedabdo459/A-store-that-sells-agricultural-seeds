@@ -12,17 +12,17 @@
     <div class="nav-container">
       <nav>
         <h3 class="logo">بذور</h3>
-        <!-- <button id="darkModeToggle">🌙 وضع الليل</button> -->
+        <button id="darkModeToggle" aria-label="تبديل وضع العرض">🌙 وضع الليل</button>
  
         <ul>
-          <li><a href="#">الصفحة الرئيسية</a></li>
-          <li><a href="#">المنتجات</a></li>
-          <li><a href="#">من نحن</a></li>
-          <li><a href="#">تواصل معنا</a></li>
+          <li><a href="#home">الصفحة الرئيسية</a></li>
+          <li><a href="#products">المنتجات</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
         </ul>
       </nav>
 
-      <div class="hero-section">
+      <div id="home" class="hero-section">
         <div class="content">
           <h1>بذور</h1>
           <p>احصل على أفضل البذور العضوية والطبيعية مباشرة إلى باب منزلك</p>
@@ -31,7 +31,7 @@
       </div>
     </div>
     <!-- About Us Section -->
-<section class="about-section">
+<section id="about" class="about-section">
     <div class="about-container">
       <div class="about-text">
         <h2>من نحن</h2>
@@ -43,58 +43,58 @@
         </p>
       </div>
       <div class="about-image">
-        <img src="./images/1.png" alt="من نحن - متجر بذور">
+        <img src="./images/1.png" alt="من نحن - متجر بذور" loading="lazy">
       </div>
     </div>
   </section>
   
     <!-- Products Section -->
-<section class="products-section">
+<section id="products" class="products-section">
     <h2>منتجاتنا</h2>
     <div class="products-grid">
       <div class="product-card">
-        <img src="./images/heather-gill-2ZruqxaQdtE-unsplash.jpg" alt="فجل">
+        <img src="./images/heather-gill-2ZruqxaQdtE-unsplash.jpg" alt="فجل" loading="lazy">
         <h3>فجل</h3>
         <button>اطلب الآن</button>
       </div>
       <div class="product-card">
-        <img src="./images/جرجير.jpg" alt="جرجير">
+        <img src="./images/جرجير.jpg" alt="جرجير" loading="lazy">
         <h3>جرجير</h3>
         <button>اطلب الآن</button>
       </div>
       <div class="product-card">
-        <img src="./images/كزبرة.jpg" alt="كزبرة">
+        <img src="./images/كزبرة.jpg" alt="كزبرة" loading="lazy">
         <h3>كزبرة</h3>
         <button>اطلب الآن</button>
       </div>
       <div class="product-card">
-        <img src="./images/بقدونس.jpg" alt="بقدونس">
+        <img src="./images/بقدونس.jpg" alt="بقدونس" loading="lazy">
         <h3>بقدونس</h3>
         <button>اطلب الآن</button>
       </div>
      
       <div class="product-card">
-        <img src="\./images/ريحان.jpg" alt="ريحان">
+        <img src="./images/ريحان.jpg" alt="ريحان" loading="lazy">
         <h3>ريحان</h3>
         <button>اطلب الآن</button>
       </div>
       <div class="product-card">
-        <img src="./images/طماطم.jpg" alt="طماطم">
+        <img src="./images/طماطم.jpg" alt="طماطم" loading="lazy">
         <h3>طماطم</h3>
         <button>اطلب الآن</button>
       </div>
       <div class="product-card">
-        <img src="./images/فلفل.jpg" alt="فلفل">
+        <img src="./images/فلفل.jpg" alt="فلفل" loading="lazy">
         <h3>فلفل</h3>
         <button>اطلب الآن</button>
       </div>
       <div class="product-card">
-        <img src="./images/بذنجان.jpg" alt="باذنجان">
+        <img src="./images/بذنجان.jpg" alt="باذنجان" loading="lazy">
         <h3>باذنجان</h3>
         <button>اطلب الآن</button>
       </div>
       <div class="product-card">
-        <img src="images/خيار.jpg" alt="خيار">
+        <img src="./images/خيار.jpg" alt="خيار" loading="lazy">
         <h3>خيار</h3>
         <button>اطلب الآن</button>
       </div>
@@ -123,17 +123,17 @@
     <h2>لماذا تختار متجر بذور؟</h2>
     <div class="features-grid">
       <div class="feature-card">
-        <img src="./images/جودة عالية.jpg" alt="جودة عالية">
+        <img src="./images/جودة عالية.jpg" alt="جودة عالية" loading="lazy">
         <h4>جودة عالية</h4>
         <p>نقدّم بذور عضوية مختارة بعناية لضمان أفضل نتائج للزراعة.</p>
       </div>
       <div class="feature-card">
-        <img src="./images/توصيل سريع.jpg" alt="توصيل سريع">
+        <img src="./images/توصيل سريع.jpg" alt="توصيل سريع" loading="lazy">
         <h4>توصيل سريع</h4>
         <p>نوصلك الطلب خلال وقت قياسي وبشكل آمن.</p>
       </div>
       <div class="feature-card">
-        <img src="./images/دعم فني.jpg" alt="دعم فني">
+        <img src="./images/دعم فني.jpg" alt="دعم فني" loading="lazy">
         <h4>دعم فني</h4>
         <p>نقدّم استشارات زراعية وخدمة عملاء محترفة على مدار الساعة.</p>
       </div>
@@ -145,7 +145,7 @@
     </div>
   </section>
     <!-- Footer -->
-<footer class="footer">
+<footer id="contact" class="footer">
     <div class="footer-container">
       <div class="footer-logo">
         <h3>بذور</h3>
@@ -155,10 +155,10 @@
       <div class="footer-links">
         <h4>روابط سريعة</h4>
         <ul>
-          <li><a href="#">الصفحة الرئيسية</a></li>
-          <li><a href="#">المنتجات</a></li>
-          <li><a href="#">من نحن</a></li>
-          <li><a href="#">تواصل معنا</a></li>
+          <li><a href="#home">الصفحة الرئيسية</a></li>
+          <li><a href="#products">المنتجات</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
         </ul>
       </div>
   
@@ -175,17 +175,6 @@
   </footer>
   
   </div>
-  <script>const toggleBtn = document.getElementById("darkModeToggle");
-
-    toggleBtn.addEventListener("click", () => {
-      document.body.classList.toggle("dark-mode");
-    
-      if (document.body.classList.contains("dark-mode")) {
-        toggleBtn.textContent = "☀️ وضع النهار";
-      } else {
-        toggleBtn.textContent = "🌙 وضع الليل";
-      }
-    });
-    </script>
+  <script src="main.js"></script>
 </body>
 </html>

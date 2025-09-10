@@ -135,6 +135,22 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   
+  /* Dark mode navbar and sections */
+  body.dark-mode .nav-container {
+    background-color: #1a1a1a;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+  
+  body.dark-mode nav ul li a {
+    color: var(--text-light);
+  }
+  
+  body.dark-mode .about-section,
+  body.dark-mode .products-section,
+  body.dark-mode .features-section {
+    background: var(--bg-dark);
+  }
+  
   nav {
     display: flex;
     justify-content: space-between;
